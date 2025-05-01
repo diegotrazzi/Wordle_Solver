@@ -1,0 +1,33 @@
+# Ignore macOS system files
+.DS_Store
+
+# C++ build directories
+/build/
+bin/
+obj/
+
+# Compiled object files
+*.o
+*.a
+*.so
+*.dll
+*.exe
+
+# Debugging files
+*.dSYM/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+CMakeLists.txt.cmake
+Makefile
+Makefile.in
+*.cmake
+
+# IDE settings
+.vscode/
+.idea/
+
+# Other system-specific files
+Thumbs.db
